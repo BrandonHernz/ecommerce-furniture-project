@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Globals */
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* Header and Nav */
+
+.header__title {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.header__title span {
+  color: #037bc0;
+}
+
+.container-nav {
+  border-top: 1px solid #e1e1e1;
+}
+
+.nav-main {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-main--center {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero {
+  background-image: url(../images/principal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
