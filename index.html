@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tienda Muebles</title>
     <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -29,21 +36,25 @@
     <div class="hero"></div>
 
     <!-- product category section -->
-    <section>
-      <h2>Categorías de Productos</h2>
-      <div>
-        <img src="./images/categoria1.jpg" alt="Imagen Categoria" />
-        <a href="#">Oficina</a>
-      </div>
+    <section class="container-category container-category--center">
+      <h2 class="container-category__title">
+        Categorías de <span>Productos</span>
+      </h2>
+      <div class="list-categories">
+        <div class="category-container">
+          <img src="./images/categoria1.jpg" alt="Imagen Categoria" />
+          <a class="category-container__link" href="#">Oficina</a>
+        </div>
 
-      <div>
-        <img src="./images/categoria2.jpg" alt="Imagen Categoria" />
-        <a href="#">Hogar</a>
-      </div>
+        <div class="category-container">
+          <img src="./images/categoria2.jpg" alt="Imagen Categoria" />
+          <a class="category-container__link" href="#">Hogar</a>
+        </div>
 
-      <div>
-        <img src="./images/categoria3.jpg" alt="Imagen Categoria" />
-        <a href="#">Cocina</a>
+        <div class="category-container">
+          <img src="./images/categoria3.jpg" alt="Imagen Categoria" />
+          <a class="category-container__link" href="#">Cocina</a>
+        </div>
       </div>
     </section>
 
